@@ -1,5 +1,9 @@
 # Taller de DevSecOps y Despliegue Continuo con GitHub Actions
 
+[![CD](https://github.com/federicovaldez14/DYAS-DevSecOps/actions/workflows/cd.yml/badge.svg)](https://github.com/federicovaldez14/DYAS-DevSecOps/actions/workflows/cd.yml)
+
+**Sistema desplegado:** runner autohospedado del equipo, `http://localhost:8090/actuator/info` en la máquina del runner. Integrantes en [`integrantes.txt`](integrantes.txt).
+
 Este taller tiene como objetivo aprender a **incorporar la seguridad y la verificación de la arquitectura dentro del pipeline** y a **desplegar automáticamente cada versión aprobada**, de forma que un cambio solo llegue a producción si compila, pasa las pruebas, respeta la arquitectura, no introduce vulnerabilidades conocidas, fue construido y firmado por el propio pipeline y cumple el SLO una vez desplegado.
 La correspondencia con el proyecto del curso está en [Cómo usar esta guía para tu proyecto](#cómo-usar-esta-guía-para-tu-proyecto).
 
